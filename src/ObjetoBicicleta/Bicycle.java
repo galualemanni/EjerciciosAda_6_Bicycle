@@ -23,5 +23,9 @@ public class Bicycle {
 
 	public void printStates() {
 		System.out.println("cadence:" + cadence + " speed:" + speed + " gear:" + gear);
-}
+	}
+
+	public String toString() {
+		return "cadence:" + cadence + " speed:" + speed + " gear:" + gear;
+	}
 }
